@@ -9,9 +9,20 @@
     print(a * b)
     }`
  
+ \
  3. What’s the difference between argument label and parameter name in a function?
- 4. Please declare a function named .name. as a parameter name. This you call the function greet like this:
- greet(person: "Luke")
- It will return the string: “Hello, Luke”.
- with person as an argument label and function will return a String. For example, if
+ 
+ argument label是外部參數名字，可以設定為_，在呼叫func的時候就沒有參數名稱
+ parameter name是內部參數名字，通常在設定func的時候會使用
+ 
+ \
+ 4.Please declare a function named greet with person as an argument label and name as a parameter name. This greet function will return a String. For example, if you call the function greet like this:
+ greet (person: "Luke")
+ \
+ `func greet(person name: String) {`\
+ `print("Hello, \(name)")`\
+ `}`
+
+ 
+ 
  */

@@ -2,8 +2,8 @@
 /*:
  *
 1. Please explain the difference between let and varm.\
- let 是常量，通常用在其值，不會改變的狀態，\
- var 是變數，通常用在其值，會改變的狀態，且會用在計算屬性上。\
+ let 是常數，通常用在其值不會改變的狀態。\
+ var 是變數，通常用在其值會改變的狀態，且會用在計算屬性上。\
 \
  
 2. In Swift, we usually define a variable through the syntax as below:\
