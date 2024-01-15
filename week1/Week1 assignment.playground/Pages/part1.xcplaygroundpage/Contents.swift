@@ -1,12 +1,12 @@
 
 
 /*:
- 2 Here are some Git and GitHub commands we usually use in software development. Please explain the meanings and use cases of them.
+ 2 Here are some Git and GitHub commands we usually use in software development. Please explain the meanings and use cases of them.\
 git status:
-查看當前工作目錄的狀態，包括已修改、已暫存和未跟踪的文件
+告诉你哪些文件已被修改、哪些文件已被暫存
  
 git diff:
-查看當前工作目錄和暫存區之間的差異。
+查看兩個版本的差異
  
 git add:
 將當前工作目錄中的文件添加到暫存區。
