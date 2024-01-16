@@ -14,7 +14,7 @@
  
 \
 4. Because I usually hang out with Kevin, please move Kevin to the beginning of the .myFriends array.\
-`myFriends.insert("Kevin", at: 0)`
+`myFriends.swapAt(0, 2)`
  
 \
 5. Use for...in to print all the friends in myFriends array.\
@@ -25,7 +25,9 @@
  
 \
 6. Now I want to know who is at index 5 in the myFriends array, try to find the answer  for me. Please explain how you get the answer and why the answer is it.\
-    `myFriends[4]`
+    \
+ 在myfriends的array中，沒有人在index5，
+ "Kevin", "Ian", "Bomi", "Michael"分別的index是0,1,2,3
 
  
 \
