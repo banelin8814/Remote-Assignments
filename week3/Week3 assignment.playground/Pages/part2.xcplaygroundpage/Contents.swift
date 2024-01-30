@@ -7,12 +7,12 @@
 closure的寫法：
  ```
  let myClosure = {(a:Int,b:Int) -> Int in
- a + b
+    a + b
 }
  let result = myClosure(4,2)
  ```
  回傳值包含closure，就是高階函式，常見的有map,sorted,filter,reduce，大概可以理解是針對collection裡面的資料做排序、改動的方法，會用
- a和b或者是$0和$1作為引數，$0和$1是swift預設的引數名稱，可以省略，但是closure裡面的引數名稱不能省略，因為closure沒有引數名稱，所以不能省略。
+ a 和 b 或者是 $0 和 $1 作為第一個和第二個參數。
  
  ```
  let fruits: [水果] = [
@@ -28,16 +28,43 @@ closure的寫法：
  */
  
 
- */
 
 /*:
 2. Please declare a closure whose input type is Int, output type is Bool. The functionality of
 this closure is to verify if the input is odd or not. Return true if it’s odd and vice versa.
+ ```
+ let isIntOdd = {(a:Int) -> Bool in
+    a % 2 == 0 ? false : true
+ }
+ let result = isIntOdd(4)
+
+ ```
+ 
  */
 
 
 
 /*:
  Please complete the following function that prints a triangle made of asterisks.
-For example, here’s what the output of   should be:
+```
+ func printTriangle(_ layers: Int) {
+     
+     var blankString:String = ""
+     let asterisk:String = "*"
+     if layers > 0 {
+         for number in 1...layers {
+             blankString.append(asterisk)
+             print(blankString)
+             
+         }
+     }else{
+         print("請輸入大於0的數字")
+     }
+
+ }
+ printTriangle(11)
+
+ 
+ ```
+ 
 */
